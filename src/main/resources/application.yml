@@ -1,1 +1,8 @@
-spring.application.name=testovoe-unibell
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testovoe_unibell
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
