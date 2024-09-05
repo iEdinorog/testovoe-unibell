@@ -22,3 +22,6 @@ GET */api/clients/{id}/contacts*
 
 6) Получение списка контактов заданного типа заданного клиента: \
 GET */api/clients/{id}/contacts?type*
+
+Документация с OpenAPI: \
+*/swagger-ui/index.html*
